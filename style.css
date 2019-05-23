@@ -1,0 +1,12 @@
+.card {
+    width: 200px;
+    height: 200px;
+    background-image: url(http://placekitten.com/420);
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    background: #0000ff;
+    height: 100%;
+}
