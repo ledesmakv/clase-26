@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:700&display=swap');
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-formulario {
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fdeded;
+    border: 3px solid #fdc7c7;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    height: 25px;
+    font-size: 20px;
+    margin: 2%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+.input-field {
+    flex: 1;
+    font-size: 16px;
+    background-color: #fdeded;
+    border: 2px solid #fdc7c7;
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    box-shadow: inset 0px 0px 18px -5px rgba(253,199,199,1);
+}
+
+.input-field::placeholder {
+    color: #f072a9c0;
+    font-weight: bold;
+}
+
+.input-field::active {
+    outline: none;
+}
+
+span {
+    width: 75px;
+    color: #f072a9;
+}
+
+/* focus, en input cuando está activo en foco, un link puede estar activo pero en focus nunca */
